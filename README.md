@@ -26,4 +26,4 @@ DATALOADER: Our dataloader takes the file path names from the dataset metadata a
 
 VISUALIZER: The visualizer works to help us see the shape of the data - it currently simply displays the colon scans and relevant masks as color images
 
-TRAINING LOOP: The training loop uses Adam with Nesterov Momentum and our implementation of mIOU, or mean intersection over union though a DICE loss function
+TRAINING LOOP: The training loop uses Adam with Nesterov Momentum and our implementation of mIOU, or mean intersection over union though a DICE / Jaccard evaluation metric with a Binary Cross Entroy with Logits loss function
