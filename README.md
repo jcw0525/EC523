@@ -16,7 +16,7 @@ Then, run the notebook in colab and grant access to your google drive. You made 
 All of the code is in one file 
 CS523_Project.ipynb
 
-MODEL: Currently a working implementation of the UNET architecture from 
+MODEL: Currently a working implementation of the UNET architecture from (https://arxiv.org/abs/1505.04597):
 Ronneberger O., Fischer P., and Brox T. U-Net: Convolutional Networks for Biomedical Image Segmentation. In: Navab N., Hornegger J., Wells W., Frangi A. (eds) Medical Image Computing and Computer-Assisted Intervention–MICCAI 2015. MICCAI 2015. Lecture Notes in Computer Science, vol 9351. Springer, Cham. https://doi.org/10.1007/978-3-319- 24574-4 _28.
 
 DATASET: Using the CVC-ClinicDB dataset of rgb color 612 384x288 colon scans w/ semantic mask labels given for areas of interest
