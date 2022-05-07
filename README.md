@@ -22,7 +22,7 @@ Ronneberger O., Fischer P., and Brox T. U-Net: Convolutional Networks for Biomed
 
 DATASET: Using the CVC-ClinicDB dataset of rgb color 612 384x288 colon scans w/ semantic mask labels given for areas of interest
 
-DATALOADER: Our dataloader takes the file path names from the dataset metadata and loads the images into tensors - it also now has infrastructure for data augmentation, specifically rotation shifts and flips
+DATALOADER: Our dataloader takes the file path names from the dataset metadata and loads the images into tensors - it also now has infrastructure for data augmentation, specifically rotation shifts and flips. We adapted the Dataloader to our project from https://www.kaggle.com/code/balraj98/polyp-segmentation-in-colonoscopy-frames-deeplab.
 
 VISUALIZER: The visualizer works to help us see the shape of the data - it currently simply displays the colon scans and relevant masks as color images
 
