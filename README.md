@@ -7,6 +7,7 @@ Update as of 2022.05.06:
 Installation and replication instructions:
 
 Download the source code: clone this github repostitory
+
 Download the CVC-ClinicDB dataset: https://www.kaggle.com/datasets/balraj98/cvcclinicdb
 
 For replicating our results, upload CS523_Project.ipynb into Google Colab and the kaggle dataset into your google drive.
