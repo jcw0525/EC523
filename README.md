@@ -8,6 +8,8 @@ Installation and replication instructions:
 
 Download the source code: clone this github repostitory
 
+If you would like, you can download our current and best model (40 epoch, no data augmentation) at https://drive.google.com/file/d/1bfhpANfAnKgsDPsxdA9jOgGCGPPv2g27/view?usp=sharing - this model finished training minutes before the deadline, and although it is not present in the official paper submission, we would still like to show our work (it works very well!)
+
 Download the CVC-ClinicDB dataset: https://www.kaggle.com/datasets/balraj98/cvcclinicdb
 
 For replicating our results, upload CS523_Project.ipynb into Google Colab and the kaggle dataset into your google drive.
